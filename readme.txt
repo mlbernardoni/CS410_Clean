@@ -3,7 +3,7 @@ Quick start:    open ITMTF in jupyter notebook, look at the parameters and press
                 or one of the saved models can be examined in the ITMTF_vis_topic notebook
 
 Setup:          Windows: Open an anaconda prompt
-                         navagate to the project's directory
+                         navigate to the project's directory
                          type:  conda env create -f ITMTF.yml
                                 the created environment will be called "Gensim"
                                 when you open the notebook, you will have to change kernels to Gensim
@@ -14,13 +14,13 @@ Setup:          Windows: Open an anaconda prompt
                                 
 
 Primary notebooks:
-ITMTF               - the main notebook to run
-itmtf_improved      - has the code for the "improved" ITMTF algorithm; called from ITMTF
-itmtf_withsplit     - has the code the the "classic" ITMTF algorithm, with splits and buffers; called from ITMTF
-ITMTF_vis_topic     - used to visualize the words in a saved model
-load_helper         - loads preprocessed files; called from ITMTF
-itmtf_prerun_stats  - not really used in processing, but preprocessed pearson and granger stats per word stream
-                      was important in creating the "improved" algorithm
+ITMTF               	- the main notebook to run
+itmtf_improved      	- has the code for the "improved" ITMTF algorithm; called from ITMTF
+itmtf_withsplit     	- has the code the the "classic" ITMTF algorithm, with splits and buffers; called from ITMTF
+ITMTF_vis_topic    	- used to visualize the words in a saved model
+load_helper             - loads preprocessed files; called from ITMTF
+itmtf_prerun_stats      - not really used in processing, but preprocessed pearson and granger stats per word stream
+                          was important in creating the "improved" algorithm
 
 Other notebooks:
 baseline_create_helper  - used to create baselines
@@ -50,9 +50,10 @@ CS410.cpp               - MP3 re-writen in c++ to improve speed,
                           not used but there if anyone was interested (spent too many hours to discard)
                           
 Libraries used:
-Gensim Python LDA                       https://radimrehurek.com/gensim/models/ldamodel.html
-SciPy's pearson r                       https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html
-statsmodels granger causality tests:    https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.grangercausalitytests.html    
+Gensim Python LDA:                       https://radimrehurek.com/gensim/models/ldamodel.html
+SciPy's pearson r:                       https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html
+statsmodels granger causality tests:     https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.grangercausalitytests.html 
+pyLDAvis:				 https://pyldavis.readthedocs.io/en/latest/index.html   
 
 Library tested but not used:
 pypi.orgs PLSA:                         https://pypi.org/project/plsa/
