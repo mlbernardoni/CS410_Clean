@@ -35,6 +35,7 @@ itmtf_improved      	- has the code for the "improved" ITMTF algorithm; called f
 itmtf_withsplit     	- has the code the the "classic" ITMTF algorithm, with splits and buffers; called from ITMTF
 ITMTF_vis_topic    	- used to visualize the words in a saved model
 run_plot		- used to visualize stats collected in a series of runs
+run_word		- used to visualize top words from significant topics
 load_helper             - loads preprocessed files; called from ITMTF
 itmtf_prerun_stats      - not really used in processing, but preprocessed pearson and granger stats per word stream
                           was important in creating the "improved" algorithm
